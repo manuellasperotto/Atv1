@@ -1,0 +1,20 @@
+[project]
+name = "ifc-festa"
+version = "0.1.0"
+description = "Sistema de gestão da festa estudantil do IFC Campus Blumenau"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.38.0",
+    "sqlalchemy>=2.0.32",
+    "pymysql>=1.1.1",
+    "python-dotenv>=1.0.4",
+    "pandas>=2.2.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
